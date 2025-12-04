@@ -95,3 +95,22 @@ Platform - Linux (Ubuntu/Kali)
 Language - Java
 
 
+git clone https://github.com/YOURUSERNAME/Video-Encryption.git
+cd Video-Encryption
+sudo apt install default-jdk libbcprov-java vlc
+javac -cp /usr/share/java/bcprov.jar -d out $(find src -name "*.java")
+java -cp out:/usr/share/java/bcprov.jar com.project.cryptoapp.Main
+
+🎥 Usage Steps
+
+Browse and select a video file
+
+Choose an encryption algorithm
+
+Click Encrypt
+
+Click Decrypt
+
+Use Play to confirm file integrity
+
+
