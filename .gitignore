@@ -1,0 +1,13 @@
+/out
+*.class
+*.enc
+*.dec
+*.key
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+*.webm
+*.DS_Store
+
